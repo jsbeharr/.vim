@@ -1,7 +1,6 @@
 # .vim
 Vim dotfile folder. Contains all plugins and settings.
 
-
 ### To clone the my .vim run this command
 ```
 git clone --recurse-submodules https://github.com/jsbeharr/.vim.git
