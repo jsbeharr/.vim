@@ -1,3 +1,6 @@
+[submodule "bundle/SearchComplete"]
+  path = bundle/SearchComplete
+  url = https://github.com/vim-scripts/SearchComplete.git 
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
