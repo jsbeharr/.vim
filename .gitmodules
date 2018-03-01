@@ -38,5 +38,5 @@
 	path = bundle/vimagit
 	url = https://github.com/jreybert/vimagit.git
 [submodule "bundle/SearchComplete"]
-	path = bundle/SearchComplete.git
+	path = bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
