@@ -1,5 +1,5 @@
 # .vim
-Vim dotfile folder. Contains all plugins and settings.
+Vim dotfile folder. Contains all plugins and settings. All plugins are listed located in .vim/bundle folder. In order to get all plugins follow the instructions below.
 
 ### To clone the my .vim run this command
 ```
