@@ -40,3 +40,6 @@
 [submodule "bundle/SearchComplete"]
 	path = bundle/SearchComplete
 	url = https://github.com/vim-scripts/SearchComplete.git
+[submodule "bundle/vim-fish"]
+	path = bundle/vim-fish
+	url = https://github.com/dag/vim-fish.git
