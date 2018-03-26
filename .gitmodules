@@ -49,3 +49,6 @@
 [submodule "bundle/vim-css-colour"]
 	path = bundle/vim-css-colour
 	url = https://github.com/ap/vim-css-color.git
+[submodule "bundle/vim-markdown-preview"]
+	path = bundle/vim-markdown-preview
+	url = https://github.com/JamshedVesuna/vim-markdown-preview.git
