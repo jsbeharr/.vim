@@ -42,6 +42,9 @@ set updatetime=100
 " Markdown Preview
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='brave'
+" Un-Comment in no internet connection is available
+" let vim_markdown_preview_toggle=1
+" let vim_markdown_preview_temp_file=1
 
 " Key mappings
 map <C-S> :setlocal spell! spelllang=en_us<CR>
