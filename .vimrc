@@ -2,12 +2,17 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" Enters Nerdtree when no file is specified
+" NerdTree Settings
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1 
+" Automatically enters NerdTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
 " utility settings
 set t_Co=256 " fixes coloring issues
+set encoding=utf8 " devicons plugin
+set guifont=hack:h11 " sets font to hack
 set clipboard=unnamed " alows for universal copy and paste
 set nu " lines numbers
 set mouse=a " enables mouse to click on files
