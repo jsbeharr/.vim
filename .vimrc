@@ -59,4 +59,5 @@ let vim_markdown_preview_browser='brave'
 
 " Key mappings
 map <C-S> :setlocal spell! spelllang=en_us<CR>
+map <C-n> :NERDTreeFocus<CR>
 nnoremap ; :
