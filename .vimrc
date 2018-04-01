@@ -32,6 +32,7 @@ set expandtab
 
 " colorscheme for editor and airline bar
 colorscheme delek
+hi LineNr guifg=#dee2ea guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 let g:airline_theme='murmur'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
@@ -39,6 +40,10 @@ let g:airline_powerline_fonts = 1
 " javascript autocompletion
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
+let g:nodejs_complete_config = {
+\  'js_compl_fn': 'jscomplete#CompleteJS',
+\  'max_node_compl_len': 15
+\}
 
 " C language completion
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
