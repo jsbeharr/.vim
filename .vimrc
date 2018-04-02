@@ -40,10 +40,8 @@ let g:airline_powerline_fonts = 1
 " javascript autocompletion
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_ngdoc = 1
-let g:nodejs_complete_config = {
-\  'js_compl_fn': 'jscomplete#CompleteJS',
-\  'max_node_compl_len': 15
-\}
+" enhance YCM JS completion with tern's smarts
+autocmd FileType javascript setlocal omnifunc=tern#Complete
 
 " C language completion
 let g:ycm_global_ycm_extra_conf = "~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py"
