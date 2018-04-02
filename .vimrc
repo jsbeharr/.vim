@@ -33,6 +33,8 @@ set expandtab
 " colorscheme for editor and airline bar
 colorscheme delek
 hi LineNr guifg=#dee2ea guibg=#2a2a2a guisp=#2a2a2a gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
+set fillchars+=vert:\ 
+hi VertSplit guifg=#181818 guibg=#181818 guisp=#181818 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 let g:airline_theme='murmur'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
