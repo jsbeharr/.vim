@@ -37,6 +37,7 @@ hi VertSplit guifg=#181818 guibg=#181818 guisp=#181818 gui=NONE ctermfg=255 cter
 let g:airline_theme='murmur'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_powerline_fonts = 1
+let g:airline_extensions = ['tabline']
 
 " javascript autocompletion
 let g:javascript_plugin_jsdoc = 1
