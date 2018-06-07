@@ -56,6 +56,7 @@ hi PmenuSel ctermbg=blue ctermfg=white
 set updatetime=100
 
 " Markdown Preview
+" <C-p> to launch preview
 let vim_markdown_preview_github=1
 let vim_markdown_preview_browser='brave'
 " Un-Comment in no internet connection is available
