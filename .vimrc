@@ -58,7 +58,7 @@ set updatetime=100
 " Markdown Preview
 " <C-p> to launch preview
 let vim_markdown_preview_github=1
-let vim_markdown_preview_browser='brave'
+let vim_markdown_preview_browser='firefox'
 " Un-Comment in no internet connection is available
 " let vim_markdown_preview_toggle=1
 " let vim_markdown_preview_temp_file=1
